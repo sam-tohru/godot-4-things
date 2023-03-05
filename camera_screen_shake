@@ -1,5 +1,10 @@
 extends Camera2D
 
+## You need to:
+## 1. Create a Global signal -> in your Global file: signal walk_screen_shake 
+## 2. Emit signal when to shake -> globals.emit_signal('walk_screen_shake')
+# you can just replace walk_screen_shake with any other name you want 
+
 ### Attached to: Camera2D ###
 ## Child -> shake_timer [Timer] ##
 
