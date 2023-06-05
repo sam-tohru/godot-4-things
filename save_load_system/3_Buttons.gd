@@ -1,6 +1,6 @@
 extends Node3D
 
-## You need some buttons to use the main save functions, i put this in a menu page
+## You need some buttons to use the main save functions, i put this in a menu page, but anywhere your buttons to save are
 ## globs = Global / Autoload file [make sure to add the global signals into the global file]
 
 ## These are 4 buttons & 1 label node, change these to your button variables
